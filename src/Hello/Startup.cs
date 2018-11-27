@@ -30,7 +30,7 @@ namespace Hello
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!Hello ASP.NET Core 1.0 \n");
             });
         }
     }
